@@ -33,6 +33,7 @@ modules:
       - dunst
       - setxkbmap
       - xcape
+      - xclip
       - xbindkeys
       - pasystray
       - clipit
