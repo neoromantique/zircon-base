@@ -25,7 +25,6 @@ modules:
   - i3status
   - i3blocks
   - rofi
-  - rofi-wayland
   - rofi-themes-base16
   - lm_sensors
   remove:
