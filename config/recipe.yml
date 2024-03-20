@@ -23,12 +23,11 @@ modules:
   - i3
   - i3lock
   - i3status
-  - i3status-rs
   - i3blocks
   - rofi
   - rofi-wayland
   - rofi-themes-base16
-  - lm-sensors
+  - lm_sensors
   remove:
   # example: removing firefox (in favor of the flatpak)
   # "firefox" is the main package, "firefox-langpacks" is a dependency
