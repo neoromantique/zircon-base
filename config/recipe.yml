@@ -27,6 +27,14 @@ modules:
   - rofi
   - rofi-themes-base16
   - lm_sensors
+  - feh
+  - stress
+  - dunst
+  - setxkbmap
+  - xbindkeys
+  - pasystray
+  - clipit
+  - scrot
   remove:
   # example: removing firefox (in favor of the flatpak)
   # "firefox" is the main package, "firefox-langpacks" is a dependency
