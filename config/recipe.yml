@@ -19,6 +19,7 @@ modules:
   - type: rpm-ostree
     repos:
     # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
+      - https://copr.fedorainfracloud.org/coprs/dawid/xcape/repo/fedora-%OS_VERSION%/dawid-xcape-fedora-%OS_VERSION%.repo
     install:
       - i3
       - i3lock
@@ -31,10 +32,12 @@ modules:
       - stress
       - dunst
       - setxkbmap
+      - xcape
       - xbindkeys
       - pasystray
       - clipit
       - scrot
+      - pamixer
       - alacritty
     remove:
     # example: removing firefox (in favor of the flatpak)
