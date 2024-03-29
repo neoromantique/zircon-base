@@ -1,4 +1,4 @@
-# Zircon Base Image &nbsp; [![build-ublue](https://github.com/neoromantique/zircon-base/actions/workflows/build.yml/badge.svg)](https://github.com/neoromantique/zircon-base/actions/workflows/build.yml)
+# Zircon Base Image &nbsp; [![build-ublue](https://github.com/neoromantique/sillica-base/actions/workflows/build.yml/badge.svg)](https://github.com/neoromantique/zircon-base/actions/workflows/build.yml)
 
 ## Image Description
 
@@ -14,7 +14,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/neoromantique/zircon-base:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/neoromantique/sillica-base:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -22,7 +22,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/neoromantique/zircon-base:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/neoromantique/sillica-base:latest
   ```
 - Reboot again to complete the installation
   ```
