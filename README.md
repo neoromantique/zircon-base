@@ -1,8 +1,8 @@
-# Zircon Base Image &nbsp; [![build-ublue](https://github.com/neoromantique/sillica-base/actions/workflows/build.yml/badge.svg)](https://github.com/neoromantique/zircon-base/actions/workflows/build.yml)
+# Sillica Base Image &nbsp; [![build-ublue](https://github.com/neoromantique/sillica-base/actions/workflows/build.yml/badge.svg)](https://github.com/neoromantique/zircon-base/actions/workflows/build.yml)
 
 ## Image Description
 
-Zircon is a personal distro-spin for my workstation and personal laptop.
+Sillica is a personal distro-spin for my workstation and personal laptop.
 Currently it is based on bluefin-dx-nvidia, but ultimately this be less general and more personalized.
 
 ## Installation

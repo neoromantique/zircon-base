@@ -28,6 +28,7 @@ modules:
       - rofi
       - rofi-themes-base16
       - lm_sensors
+      - sway
       - feh
       - stress
       - dunst
